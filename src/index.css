@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+*{
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+nav a{
+  text-decoration: none !important;
+  margin-right:25px;
+
+}
+.card{
+  width: 80%;
+  border-radius: 10px !important;
+  /* background-image: linear-gradient(to right,rgb(117, 152, 226), rgb(221, 206, 121)); */
+  margin-left:25px; 
+  border-color: black;
+  margin-bottom:10px;
+  box-shadow: 1px 2px 2px rgb(104, 108, 100);
+}
+
+.navbar{
+  
+  margin-bottom: 20px;
+  background-color: yellowgreen;
+  
+}
+.userdetails, .address-details, .company-details{
+  margin-left: 35px;
+}
+h4,b{
+  color:rgb(11, 0, 0);
+}
+.form-control:focus{
+  box-shadow: 2px 2px 3px  #76ed1abf;
+}
